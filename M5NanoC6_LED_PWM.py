@@ -7,7 +7,7 @@ import machine
 
 #--------------------------------------------------
 # setup
-led_blue = machine.PWM(7)
+led_blue = machine.PWM(machine.Pin(7))
 
 led_blue.duty(0)
 
