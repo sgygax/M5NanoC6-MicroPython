@@ -7,7 +7,7 @@ import machine
 
 #--------------------------------------------------
 # setup
-led_blue = machine.Pin(7, machine.Pin.OUT)
+led_blue = machine.PWM(machine.Pin(7))
 
 #--------------------------------------------------
 # loop
